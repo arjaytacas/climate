@@ -1,8 +1,11 @@
 # 🌦️ Climate App
 
 A sleek Flutter-based weather application that fetches real-time weather data using the OpenWeatherMap API. It displays current temperature, weather conditions, and a friendly message based on your location or a city you search for.
+
 ---
+
 ## 📱 Features
+
 ```
 🌍 Location-based weather: Automatically fetches weather data based on the user's current location.
 🏙️ City search: Allows users to search for weather in any city.
@@ -26,7 +29,9 @@ lib/
 └── utilities/
 └── contants.dart          # Contains styling constants and API key
 ```
+
 ---
+
 ## 🚀 Getting Started
 Prerequisites
 -Flutter SDK installed
@@ -46,28 +51,36 @@ const String kAPIKey = 'YOUR_API_KEY_HERE';
 ```bash
 flutter run
 ```
+
 ---
+
 ## 📸 Sample UI
 The app displays weather like:
 ```
 25°C ☁️ Time for shorts and a t-shirt in Taytay!
 ```
+
 With a scenic background image and intuitive buttons for location refresh and city search.
+
 ---
+
 ## 📦 Dependencies
-```
+
 - flutter
 - http
 - geolocator
 - flutter_spinkit (optional for loading animations)
-```
+
 ---
+
 ## 🧠 Logic Overview
 - LoadingScreen: Requests location, fetches weather, navigates to LocationScreen.
 - LocationScreen: Displays weather data, allows refresh or city search.
 - WeatherModel: Maps weather condition codes to emojis and messages.
 - NetworkHelper: Handles API requests.
 - Location: Manages geolocation and permissions.
+
 ---
+
 ## 📄 License
 MIT License. Feel free to use and modify.
