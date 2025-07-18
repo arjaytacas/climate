@@ -1,4 +1,5 @@
 # 🌦️ Climate App
+
 A sleek Flutter-based weather application that fetches real-time weather data using the OpenWeatherMap API. It displays current temperature, weather conditions, and a friendly message based on your location or a city you search for.
 ---
 ## 📱 Features
